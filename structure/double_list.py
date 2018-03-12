@@ -79,7 +79,7 @@ class DoubleList(SingleList):
             cur = cur.next
 
     def reverse(self):
-        """双向链表逆序"""
+        """双向链逆序"""
         if self.length() <= 1:
             return
         cur = self._head
